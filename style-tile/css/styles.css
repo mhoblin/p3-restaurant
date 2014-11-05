@@ -24,6 +24,18 @@ section {
 	width: 50px;
 }
 
+.color-1 {
+	background-color: #ED0E0E;
+}
+
+.color-2 {
+	background-color: #000000;
+}
+
+.color-3 {
+	background-color: #FFAF40;
+}
+
 
 /* Show Grid */
 .showgrid {
