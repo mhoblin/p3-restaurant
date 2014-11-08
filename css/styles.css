@@ -1,0 +1,28 @@
+
+
+
+
+/* Mobile */
+@media screen and (min-width: 320px) {
+	body {
+    background: green;    
+  }
+
+}
+
+/* Tablet */
+@media screen and (min-width: 768px) {
+  body {
+    background: orange;  
+  }
+  
+}
+
+/* Desktop */
+@media screen and (min-width: 1140px) {
+
+    body {
+      background: yellow;      
+    }
+
+}
