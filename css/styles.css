@@ -1,12 +1,23 @@
+body {
+	text-align: center;
+	font-family: 'PT Sans', sans-serif;
+}
 
-
-
+ul li {
+	list-style: none;
+}
 
 /* Mobile */
 @media screen and (min-width: 320px) {
 	body {
     background: green;    
   }
+  	div img {
+  		width: 15em;
+  		margin: 2em 2em 2em 2em;
+  		float: center;
+  		  
+  	}
 
 }
 
@@ -15,6 +26,8 @@
   body {
     background: orange;  
   }
+
+
   
 }
 
