@@ -6,6 +6,10 @@ body {
 	font-family: 'PT Sans', sans-serif;
 }
 
+.health {
+	font-size: 12pt;
+}
+
 h1,
 h2,
 h3,
@@ -51,53 +55,97 @@ a:hover {
 	color: red;
 }
 
+
+
 /* -- other styling */
+div img {
+	width: 15em;
+	margin: 2em 2em 2em 2em;
+	float: center;
+  
+}
+
 
 div.contact,
 div.menu ul{
 	text-align: left;
-	/*background: red;*/
 	display: block;	
-	border-radius: 7%;
+	border-top: 2px solid grey;
+	border-bottom: 2px solid grey;
+	background: url('../img/washi.png') repeat;
+	margin-top: 2em;
+	margin-bottom: 2em;
+	padding-top:2em;
+	padding-bottom: 2em;
 }
 
+div.health {
+	border-top: 2px solid grey;
 
-
-
-div {
-	background: url('..img/washi/washi.png') no-repeat;
 }
 
 div.price ul li{
 	float: left;
+	text-align: center;
 }
 
 div.price {
 	padding-bottom: 5em;
 
+
 }
 
+.menu div:nth-of-type(1) {
+	background-color: yellow;
+}
+.menu div:nth-of-type(2) {
+	background-color: yellow;
 
+}
+.menu div:nth-of-type(3) {
+	background-color: lightblue;
 
-div.circle {
-	color: yellow;
+}
+.menu div:nth-of-type(4) {
+	background-color: lightblue;
+
+}
+.menu div:nth-of-type(5) {
+	background-color: red;
+
+}
+.menu div:nth-of-type(6) {
+	background-color: red;
+
+}
+.menu div:nth-of-type(7) {
+	background-color: green;
+
+}
+.menu div:nth-of-type(8) {
+	background-color: green;
+
+}
+
+.menu div {
+	display: inline-block;
+	margin-bottom: -8em;
+	width: 2em;
+	height: 2em;
 	border-radius: 50%;
-	height: 5em;
-	width: 5em;
+
+}
+
+.menu h2 {
+	margin: 1.5em;
 }
 
 
 /* Mobile */
 @media screen and (min-width: 320px) {
 	body {
-    background-color: lightgreen;   
+   /* background-color: lightgreen; 
   }
-  	div img {
-  		width: 15em;
-  		margin: 2em 2em 2em 2em;
-  		float: center;
-  		  
-  	}
 
 }
 
