@@ -71,6 +71,10 @@ div.contact {
 	background: url('../img/washi.png') repeat;
 }
 
+div.contact div.row div.column:first-of-type {
+	text-align: right;
+}
+
 
 
 
