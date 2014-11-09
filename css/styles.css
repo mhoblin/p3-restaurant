@@ -1,16 +1,84 @@
+
+/* --- text styling ---*/
+
 body {
 	text-align: center;
 	font-family: 'PT Sans', sans-serif;
 }
 
+h1,
+h2,
+h3,
+h4 {
+	font-weight: bold;
+}
+
+h1 {
+	font-size: 32pt;
+}
+
+h2 {
+	font-size: 24pt;
+}
+
+h3 {
+	color: red;
+	font-size: 16pt;
+}
+
+p,
+li {
+	font-size: 16pt;
+}
+
+
 ul li {
 	list-style: none;
+	text-align:left;
 }
+
+ul section:hover,
+ul section ~ li:hover {
+	color: red;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+a:hover {
+	color: red;
+}
+
+/* -- other styling */
+
+div.contact,
+div.menu 
+ul.price {
+	text-align: left;
+	background: red;
+	display: inline-block;
+	padding: 1em;
+	border-radius: 7%;
+}
+
+div {
+	background: url('..img/washi/washi.png') no-repeat;
+}
+
+ul.price li{
+	float: left;
+	display: inline-block;
+}
+
+
+
 
 /* Mobile */
 @media screen and (min-width: 320px) {
 	body {
-    background: green;    
+    background-color: lightgreen;   
   }
   	div img {
   		width: 15em;
@@ -24,7 +92,7 @@ ul li {
 /* Tablet */
 @media screen and (min-width: 768px) {
   body {
-    background: orange;  
+    background: pink;  
   }
 
 
@@ -35,7 +103,7 @@ ul li {
 @media screen and (min-width: 1140px) {
 
     body {
-      background: yellow;      
+      background: lightyellow;      
     }
 
 }
