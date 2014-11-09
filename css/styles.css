@@ -66,8 +66,7 @@ div img {
 }
 
 
-div.contact,
-div.menu ul{
+div.contact {
 	text-align: left;
 	display: block;	
 	border-top: 2px solid grey;
@@ -153,6 +152,8 @@ div.price ul li:nth-of-type(4){
 	width: 2em;
 	height: 2em;
 	border-radius: 50%;
+	margin-top: .6em;
+	margin-left: .6em;
 
 }
 
