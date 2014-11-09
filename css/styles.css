@@ -88,10 +88,8 @@ div.price ul li{
 	float: left;
 	text-align: center;
 	border-radius: 50%;
-	padding: .4em;
 	margin: .1em;
-	height: 2.4em;
-	width: 2.4em;
+	padding: .8em .4em;
 	color: white;
 }
 
