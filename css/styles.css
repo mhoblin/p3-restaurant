@@ -93,6 +93,10 @@ div.price ul li{
 	color: white;
 }
 
+div.price ul {
+	margin: 0em;
+}
+
 div.price {
 	padding-bottom: 5em;
 }
