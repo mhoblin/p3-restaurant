@@ -54,23 +54,30 @@ a:hover {
 /* -- other styling */
 
 div.contact,
-div.menu 
-ul.price {
+div.menu {
 	text-align: left;
-	background: red;
-	display: inline-block;
-	
+	/*background: red;*/
+	display: inline-block;	
 	border-radius: 7%;
 }
+
+
 
 div {
 	background: url('..img/washi/washi.png') no-repeat;
 }
 
-ul.price li{
+div.price ul li{
 	float: left;
-	display: inline-block;
+	text-align: center;
 }
+
+div.price {
+	padding-bottom: 5em;
+
+}
+
+
 
 
 
