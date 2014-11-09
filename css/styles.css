@@ -10,6 +10,10 @@ body {
 	font-size: 12pt;
 }
 
+i {
+	float: left;
+}
+
 h1,
 h2,
 h3,
@@ -69,8 +73,6 @@ div img {
 div.contact {
 	text-align: left;
 	display: block;	
-	border-top: 2px solid grey;
-	border-bottom: 2px solid grey;
 	background: url('../img/washi.png') repeat;
 	margin-top: 2em;
 	margin-bottom: 2em;
@@ -79,8 +81,9 @@ div.contact {
 }
 
 div.health {
-	border-top: 2px solid grey;
-
+	background: url('../img/washi.png') repeat;
+		padding-top:2em;
+	padding-bottom: 2em;
 }
 
 div.price ul li{
@@ -88,7 +91,7 @@ div.price ul li{
 	text-align: center;
 	border-radius: 50%;
 	margin: .1em;
-	padding: .8em .4em;
+	padding: .8em .3em;
 	color: white;
 }
 
@@ -157,8 +160,11 @@ div.price ul li:nth-of-type(4){
 
 }
 
-.menu h2 {
-	margin: 1.5em;
+
+.menu ul {
+	margin: 0;
+	padding: 2em;
+	background: url('../img/washi.png') repeat;
 }
 
 
