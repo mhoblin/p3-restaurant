@@ -67,32 +67,15 @@ div img {
 }
 
 
-div.contact {
-	text-align: left;
-	display: inline-block;	
+div.contact {	
 	background: url('../img/washi.png') repeat;
-	margin-top: 2em;
-padding: 2em;
+}
+
+div.contact div:nth-of-type(1) div{
+	text-align: right;
 }
 
 
-div.contact ul li {
-	float: center;
-	margin-left: 2.1em;
-}
-
-div.contact ul li:nth-child(2) {
-		padding-bottom: .7em;
-		margin-top: -.7em;
-}
-
-div.contact ul li i {
-	margin-left: -2.5em;
-}
-
-div.contact ul li:nth-child(1) i {
-	margin-bottom: -6em;
-}
 
 
 div.health {
