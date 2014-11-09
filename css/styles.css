@@ -80,6 +80,20 @@ div.contact {
 	padding-bottom: 2em;
 }
 
+div.contact ul li:nth-child(2) {
+		padding-bottom: .7em;
+		margin-top: -.7em;
+}
+
+div.contact ul li i {
+	margin-left: -2.5em;
+}
+
+div.contact ul li:nth-child(1) i {
+	margin-bottom: -6em;
+}
+
+
 div.health {
 	background: url('../img/washi.png') repeat;
 		padding-top:2em;

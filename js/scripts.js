@@ -10,3 +10,5 @@
 
 //hide the plate color text
 $('.menu ul li:nth-of-type(1)').hide();
+
+
