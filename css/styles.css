@@ -108,6 +108,7 @@ div.price div.row div.seven p {
 	margin-bottom: 0px;
 }
 
+div.contact.ui.grid>div.row>div.seven>a.button,
 div.price div.row div.seven ul li {
 	margin-bottom: 2em;
 }
@@ -127,6 +128,10 @@ div.price ul li:nth-of-type(3){
 div.price ul li:nth-of-type(4){
 	border: .15em solid green;
 	color: green;
+}
+
+.price>.row>.seven {
+	text-align: center;
 }
 
 
@@ -172,8 +177,8 @@ div.price ul li:nth-of-type(4){
 	margin-left: .6em;
 }
 
-html body.body div.menu div + h2.item.fluid.basic.massive.ui.button#item#menu {
-	color: black !important;
+body.body div.menu div + h2.item.fluid.basic.massive.ui.button#item#menu {
+	color: black;
 }
 
 
@@ -186,11 +191,13 @@ html body.body div.menu div + h2.item.fluid.basic.massive.ui.button#item#menu {
 
 
 
+
 /* Mobile */
 @media screen and (min-width: 320px) {
 	body {
-   background-color: lightgreen; 
+   /* background-color: lightgreen; */
   }
+
 
   div.ui.grid>div.column {
 	text-align: center;
@@ -200,17 +207,13 @@ html body.body div.menu div + h2.item.fluid.basic.massive.ui.button#item#menu {
 	margin-bottom: 2em;
 }
 
-/*.ui.grid>.column, 
-.ui.grid>.row>.column {
-	text-align: center;
-}
 
 }
 
 /* Tablet */
 @media screen and (min-width: 768px) {
   body {
-    background: pink;  
+    /*background: pink; */ 
   }
 div a.ui.button.green {
 	float: right;
@@ -227,7 +230,7 @@ div a.ui.button.green {
 @media screen and (min-width: 1140px) {
 
     body {
-      background: lightyellow;      
+      /*background: lightyellow; */     
     }
 
 }

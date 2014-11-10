@@ -68,5 +68,13 @@ $('div.contact div.row:nth-of-type(3)').on('mouseenter', function() {
 	});
    });
 
-//yes, Colin, I figured all of this out using jquery.com :)
+//lightbox for reservation form
+$('#reservation').click(function() {
+	$('.basic:not([id="item menu"])').modal('show');
+});
+
+$('#submit').click(function() {
+	$('.basic:not([id="item menu"])').modal('hide');
+});
+
 
