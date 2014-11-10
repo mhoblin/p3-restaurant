@@ -42,11 +42,6 @@ ul li {
 	text-align:left;
 }
 
-
-ul li:hover {
-	color: red;
-}
-
 a {
 	text-decoration: none;
 	color: black;
@@ -62,26 +57,35 @@ a p:hover {
 div img {
 	width: 15em;
 	margin: 2em 2em 2em 2em;
-	float: center;
   
 }
 
 
+
+
 div.contact {	
 	background: url('../img/washi-blur.png') repeat;
+	max-width: 490px;
 }
 
-div.contact div.row div.column:first-of-type {
+div.contact h2 {
+	text-align: center;
+}
+
+div.contact div.row div.column:first-of-type{
 	text-align: right;
 }
 
-
+div.contact div.row div.seven p,
+div.price h2 {
+	text-align: center;
+}
 
 
 
 div.health {
 	background: url('../img/washi-blur.png') repeat;
-		padding-top:2em;
+	padding-top: 2em;
 	padding-bottom: 2em;
 }
 
@@ -98,8 +102,15 @@ div.price ul {
 	margin: 0em;
 }
 
-div.price {
-	padding-bottom: 5em;
+
+div.price div.row div.seven p {
+	text-align: center;
+	color: grey;
+	margin-bottom: 0px;
+}
+
+div.price div.row div.seven ul li {
+	margin-bottom: 2em;
 }
 
 div.price ul li:nth-of-type(1){
