@@ -7,8 +7,6 @@ $('.menu h2').click(function(){
 			}
 });
 
-//blur pattern
-$('background').blur();
 
 //hide the plate color text
 $('.menu ul li:nth-of-type(1)').hide();
@@ -70,4 +68,5 @@ $('div.contact div.row:nth-of-type(3)').on('mouseenter', function() {
 	});
    });
 
+//yes, Colin, I figured all of this out using jquery.com :)
 
